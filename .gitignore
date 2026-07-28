@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+
+# Vector store (regenerable — rebuilt automatically on first question per ticker)
+vector_store/
+
+# Cached raw filing HTML, if ever written locally
+filings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
