@@ -52,7 +52,7 @@ This opens a browser tab showing the project folder. Click `agent.ipynb` to open
 
 **6. Run the notebook.** Run the cells from top to bottom (Shift+Enter on each, or use "Run All" from the toolbar). The first cells set up the environment and define the functions; nothing happens until you get to a cell that actually calls `ask(...)`.
 
-**7. Ask a question.** The last several cells contain example questions you can run as-is, or edit to ask about any public company. The first question about a given company will take a bit longer (fetching and indexing its 10-K from EDGAR); every later question about that same company answers almost instantly from the local vector store, unless a newer 10-K has since been filed, in which case it re-indexes automatically.
+**7. Ask a question.** The last several cells contain example questions you can run as-is, or edit however you like — change the question, the company, or both. Any question about any public company works. The first question about a given company will take a bit longer (fetching and indexing its 10-K from EDGAR); every later question about that same company answers almost instantly from the local vector store, unless a newer 10-K has since been filed, in which case it re-indexes automatically.
 
 ## Asking a question
 
