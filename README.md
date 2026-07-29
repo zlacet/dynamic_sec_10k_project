@@ -1,6 +1,6 @@
 # Dynamic SEC 10-K RAG Agent
 
-This project answers natural-language questions about any publicly traded company's most recent SEC 10-K annual report. Ask about any company by name, and the system detects the ticker, fetches and indexes its latest 10-K directly from SEC EDGAR on the fly, then answers using only content it finds in that filing.
+This agent answers natural-language questions about any publicly traded company's most recent SEC 10-K annual report. Ask about any company by name, and the system detects the ticker, fetches and indexes its latest 10-K directly from SEC EDGAR on the fly, then answers using only content it finds in that filing.
 
 ## Why this project
 
